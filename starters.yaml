@@ -83,7 +83,28 @@ generatorNames:
   - none
   - kubernetes-resource-simple
   - kubernetes-resource-skaffold
-  - kubernetes-kustomize-skaffold
+  - kubernetes-kustomize-skaffold-no-dependencies
+actionNames:
+  - github-repo-create
+
+---
+name: ebanking-service
+displayName: Spring Boot eBanking service
+version: 0.0.1-SNAPSHOT
+sourceUrl: github.com/markpollack/todos-api
+language: java
+framework: spring
+homeUrl: https://github.com/markpollack/todos-api
+tags:
+  - spring
+maintainer: https://github.com/markpollack
+description: A Spring Boot microservice that uses the Spring Boot Web Starter to implement a REST API for an eBanking application
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-boot.png
+generatorNames:
+  - none
+  - kubernetes-resource-simple
+  - kubernetes-resource-skaffold
+  - kubernetes-kustomize-skaffold-no-dependencies
 actionNames:
   - github-repo-create
 

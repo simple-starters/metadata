@@ -43,6 +43,23 @@ sourceUrl: github.com/simple-starters/generator-boot-k8s-kustomize-skaffold?ref=
 homeUrl: https://github.com/simple-starters/generator-boot-k8s-kustomize-skaffold
 
 ---
+name: kubernetes-kustomize-skaffold-no-dependencies
+displayName: Spring Boot on Kubernetes using Kustomize and Skaffold - no dependencies configured
+description: Deploy a Spring Boot application on Kubernetes using kustomize, off-the-shell kustomizations, and deploy using Skaffold.
+iconUrl: https://github.com/ddobrin/icons/blob/master/icon-no-dependency.png
+maintainer: ddobrin@vmware.com
+version: 1.0.0
+tags:
+  - skaffold
+  - kubernetes
+  - spring
+commands: |-
+  k8s new
+  k8s update
+sourceUrl: github.com/simple-starters/generator-boot-k8s-kustomize-skaffold-no-deps
+homeUrl: https://github.com/simple-starters/generator-boot-k8s-kustomize-skaffold-no-deps
+
+---
 name: knative-kustomize-skaffold
 displayName: Spring Boot with Knative Service using Kustomize and Skaffold
 description: Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.
