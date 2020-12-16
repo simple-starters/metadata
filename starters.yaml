@@ -91,10 +91,10 @@ actionNames:
 name: ebanking-service
 displayName: Spring Boot eBanking service
 version: 0.0.1-SNAPSHOT
-sourceUrl: github.com/ddobrin/todos-api
+sourceUrl: github.com/ddobrin/ebanking-api
 language: java
 framework: spring
-homeUrl: https://github.com/ddobrin/todos-api 
+homeUrl: https://github.com/ddobrin/ebanking-api 
 tags:
   - spring
 maintainer: https://github.com/ddobrin
