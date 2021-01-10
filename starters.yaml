@@ -67,6 +67,26 @@ actionNames:
   - github-repo-create
 
 ---
+name: uppercase-function-azure
+displayName: Spring Cloud Function App - Azure Functions
+version: 1.0.0
+sourceUrl: github.com/ddobrin/azure-cloud-function-sample
+language: java
+framework: spring
+homeUrl: https://github.com/ddobrin/azure-cloud-function-sample
+tags:
+  - spring
+  - cloud
+  - function
+maintainer: https://github.com/ddobrin
+description: A simple example of a Spring Boot Function running in Microsoft Azure Functions
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
+generatorNames:
+  - none
+actionNames:
+  - github-repo-create
+
+---
 name: todo-service
 displayName: Spring Boot TODO service
 version: 0.0.1-SNAPSHOT
