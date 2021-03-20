@@ -67,6 +67,28 @@ actionNames:
   - github-repo-create
 
 ---
+name: knative-function
+displayName: Spring Cloud Function Serverless JVM/Native App on Knative
+version: 0.0.1
+sourceUrl: https://github.com/ddobrin/spring-native-function-knative
+language: java
+framework: spring
+homeUrl: https://github.com/ddobrin/spring-native-function-knative
+tags:
+  - spring
+  - cloud
+  - function
+  - serverless
+  - native image
+maintainer: https://github.com/ddobrin
+description: A simple Spring Cloud Function-based serverless app with JVM/GraalVM Native Image Compilation
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
+generatorNames:
+  - knative-resource-simple
+actionNames:
+  - github-repo-create
+
+---
 name: uppercase-function-azure
 displayName: Spring Cloud Function App - Azure Functions
 version: 1.0.0

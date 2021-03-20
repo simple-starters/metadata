@@ -111,6 +111,23 @@ sourceUrl: github.com/simple-starters/generator-k8s-simple?ref=1.1.3
 homeUrl: https://github.com/simple-starters/generator-k8s-simple
 
 ---
+name: knative-resource-simple
+displayName: Spring Cloud Function in Knative using kubectl apply
+description: Deploy a Spring Cloud Function in Knative using a Kubernetes resource files with kubectl.
+iconUrl: https://avatars3.githubusercontent.com/u/35583233?s=280&v=4
+maintainer: ddobrin@vmware.com
+tags:
+  - kubernetes
+  - knative
+  - spring
+commands: |-
+  k8s-simple new
+  k8s-simple new-native
+version: 0.0.1
+sourceUrl: github.com/ddobrin/generator-knative-simple
+homeUrl: https://github.com/ddobrin/generator-knative-simple
+
+---
 name: kubernetes-resource-skaffold
 displayName: Spring Boot on Kubernetes using Skaffold
 description: Deploy a Spring Boot application using a few Kubernetes resource files and skaffold.  Kustomize is not used.
