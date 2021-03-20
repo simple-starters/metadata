@@ -85,6 +85,7 @@ description: A simple Spring Cloud Function-based serverless app with JVM/GraalV
 iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
 generatorNames:
   - knative-resource-simple
+  - knative-kpack-resource-simple
 actionNames:
   - github-repo-create
 
