@@ -87,6 +87,7 @@ generatorNames:
   - kubernetes-resource-simple
   - knative-resource-simple
   - knative-kpack-resource-simple
+  - knative-kustomize-skaffold
 actionNames:
   - github-repo-create
 
