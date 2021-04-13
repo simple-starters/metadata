@@ -163,36 +163,6 @@ generatorNames:
   - docker-compose
 
 ---
-name: pharmacy-backend
-displayName: Pharmacy Backend Service - X
-displayWeight: 10
-sourceUrl: https://github.com/markpollack/frysfoodpharmbackend
-tags:
-  - database
-  - spring
-  - jpa
-  - mysql
-description: The Pharmacy Backend service based on Kroger Enterprise Application Framework (EAF), with SSO and common pharmacy services library support.
-iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-frys.png
-generatorNames:
-  - kubernetes-steeltoe-skaffold
-
----
-name: logistics-freight-order-service
-displayName: Logistics Freight Ordering Service - X
-displayWeight: 10
-sourceUrl: https://github.com/markpollack/krogerlogistics
-tags:
-  - database
-  - steeltoe
-  - nhibernate
-  - postgresql
-description: Logistics Ordering service to tender freight orders to preferred company carriers, based on Krokger Enterprise Application Framework (EAF).
-iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-kroger.png
-generatorNames:
-  - knative-kustomize-skaffold
-
----
 name: spring-rabbitmq
 displayName: Spring and RabbitMQ Publisher - X
 displayWeight: 10
