@@ -75,8 +75,6 @@ tags:
   - function
 description: A simple example of a Spring Boot Function running in Microsoft Azure Functions
 iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
-generatorNames:
-  - none
 
 ---
 name: todo-service
