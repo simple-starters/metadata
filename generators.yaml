@@ -79,6 +79,18 @@ commands: |-
 sourceUrl: https://github.com/simple-starters/generator-k8s-simple
 
 ---
+name: kubernetes-resource-simple-nodeps
+displayName: Spring Boot on Kubernetes using kubectl apply
+description: Deploy a Spring Boot application to Kubernetes - no dependent resources
+iconUrl: https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg
+tags:
+  - kubernetes
+  - spring
+commands: |-
+  k8s-simple new
+sourceUrl: https://github.com/simple-starters/generator-k8s-simple-nodeps
+
+---
 name: knative-resource-simple
 displayName: Spring Cloud Function in Knative using kubectl apply
 description: Deploy a Spring Cloud Function in Knative using a Kubernetes resource files with kubectl.
